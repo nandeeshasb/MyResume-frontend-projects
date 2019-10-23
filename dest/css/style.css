@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	padding:0;
+	margin:0;		
+}
+ul li {
+	list-style-type: none;
+}
+.background-img {
+	background-image: url("../img/1.jpg");
+	background-position: 30% 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+.img-profile {
+	position: relative;
+	padding:auto auto;
+	text-align: center;
+	top: 18%;
+	z-index: 1;
+}
+.img-profile {
+	font-weight: bold;
+	font-size: 40px;
+}
+.navbar {
+	display: none;
+}
+
+.navbar a:hover {
+	color: #fff;	
+	background-color: #c7fc19;
+	transition: width 2s, height 2s, transform 2s;
+	transform: rotate(360deg);	
+	text-align: center;
+}
+.menubar {	
+	padding-left: 30px;
+	font-size: 30px;	
+}
+.about {
+	/*font-family: cursive;
+	font-style: oblique;*/
+	font-weight: 700;
+    font-family: 'Playball',cursive;
+    font-size: 35px;
+    color: #333;
+    margin: 0;
+    padding: 5px;
+}
+.papers {
+    position: relative;
+    width: 90%;
+    padding: 2em;
+    margin: 0px auto;
+    margin-top: 40px;
+    font-size: 16px;
+}
+.papers img {
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.papers, .papers:before, .papers:after {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 0 30px rgba(0,0,0,0.1), 1px 1px 3px rgba(0,0,0,0.2);
+}
+.papers:before, .papers:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotateZ(2.5deg);
+    -o-transform: rotate(2.5deg);
+    transform: rotateZ(2.5deg);
+    z-index: -1;
+}
+.papers:after {
+    -webkit-transform: rotateZ(-2.5deg);
+    -o-transform: rotate(-2.5deg);
+    transform: rotateZ(-2.5deg);
+}
+.papers p {
+    text-align: left;
+    margin: 1.5em 0;
+}
+
+/*  ------Skills------*/
+
+}
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    -moz-animation-name: fadeInRight;
+    -o-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    visibility: visible;
+    animation-delay: 0.3s;
+}
+.animated {  
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+.progress-wrap {
+    position: relative;
+}
+.progress {
+    position: relative;
+}
+.progress, .progress-bar {
+    height: 15px;
+    line-height: 15px;
+    background: #e6e6e6;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: visible;
+    text-align: right;
+}
+.progress {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.progress .color1, .progress .color1 .bar-width {
+    background: #2d7da4;
+}
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #337ab7;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+.progress .bar-width {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    top: -30px;
+    border-radius: 2px;
+    margin-left: -30px;
+}
+.progress span {
+    position: relative;
+}
